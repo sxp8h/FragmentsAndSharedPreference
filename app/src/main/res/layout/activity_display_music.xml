@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="100"
+    android:orientation="vertical"
+    tools:context="com.sxp8h.fragmentosysharedpreference.DisplayMusicActivity">
+
+    <FrameLayout
+        android:id="@+id/menuFrame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/holderFrame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="75">
+
+    </FrameLayout>
+
+</LinearLayout>
